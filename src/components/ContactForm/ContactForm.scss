@@ -1,0 +1,22 @@
+@import 'styles/shared.scss';
+
+.ContactForm {
+  outline: 1px solid black;
+  padding: 15px;
+}
+
+.InputOverlay {
+  margin-bottom: 20px;
+}
+
+.InputLabel {
+  @extend %inputLabel;
+}
+
+.Input {
+  @extend %input;
+}
+
+.FormButton {
+  @extend %button;
+}
