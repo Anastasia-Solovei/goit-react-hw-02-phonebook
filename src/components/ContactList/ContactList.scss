@@ -1,0 +1,6 @@
+@import 'styles/shared.scss';
+
+.ContactList {
+  @extend %list;
+  margin-left: 50px;
+}
