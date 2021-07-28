@@ -1,0 +1,37 @@
+%list {
+  padding: 0;
+  margin: 0;
+}
+
+%button {
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 5px 2px 5px;
+  border: 2px solid rgb(206, 205, 205);
+  border-radius: 3px;
+}
+
+%title {
+  margin: 0;
+}
+
+%text {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+%inputLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+%input {
+  display: block;
+  border: 2px solid rgb(206, 205, 205);
+}
