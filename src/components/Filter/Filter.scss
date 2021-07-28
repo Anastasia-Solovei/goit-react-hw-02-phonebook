@@ -1,0 +1,9 @@
+@import 'styles/shared.scss';
+
+.FilterLabel {
+  @extend %inputLabel;
+}
+
+.FilterInput {
+  @extend %input;
+}
