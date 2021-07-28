@@ -1,0 +1,17 @@
+@import 'styles/shared.scss';
+
+.ContactItem {
+  margin-bottom: 10px;
+}
+
+.ContactItemText {
+  @extend %text;
+  display: inline-block;
+}
+
+.DeleteBtn {
+  @extend %button;
+  padding: 0 5px 0 5px;
+  border-width: 1px;
+  margin-left: 20px;
+}
