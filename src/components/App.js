@@ -65,7 +65,8 @@ class App extends Component {
 
     return (
       <>
-        <Section title={'Phonebook'}>
+        <h1>Phonebook</h1>
+        <Section>
           <ContactForm
             onAdd={this.handleAddContact}
             onCheckContact={this.handleCheckUniqueContact}
